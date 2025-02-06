@@ -1,11 +1,39 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
+* {
+	margin: auto 0;
+
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+
+.header {
+	background-color: rgb(146, 253, 223);
+	padding: 30px;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+h2 {
+	background-color: rgb(197, 212, 250);
+	padding: 10px;
+
+
+}
+
+h4 {
+	background-color: rgb(229, 237, 253);
+	padding: 10px;
+
+}
+
+section {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
