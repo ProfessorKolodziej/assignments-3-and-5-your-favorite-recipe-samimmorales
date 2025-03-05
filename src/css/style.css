@@ -75,7 +75,7 @@ li {
 
 .jumpbutton {
 	background: #1B7A79;
-	padding: 2% 2%;
+	padding: 1.5% 1.5%;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -83,6 +83,10 @@ li {
 .jump {
 	color: white;
 	text-decoration: none;
+	font-family: "Annapurna SIL";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
 
 }
 
