@@ -303,11 +303,13 @@ li {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 5%;
 	background: #1B7A79;
-	padding-left: 15%;
-	padding-bottom: 4%;
-	padding-top: 6%;
-	padding-right: 50%;
+	padding-left: 2%;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-right: 20%;
 }
+
+
 
 
 .container-stepfour {
