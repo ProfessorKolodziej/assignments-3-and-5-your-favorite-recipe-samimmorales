@@ -76,23 +76,29 @@ li {
 	padding: 2% 2%;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+
+}
+
+.jump {
+	color: white;
+	text-decoration: none;
 
 }
 
 
 .container-one {
 	display: inline-flex;
-	padding: 3% 0% 2% 2%;
+	padding: 0% 0% 2% 3%;
 	text-align: justify;
 }
+
 
 
 .image-one {
 	max-width: 70%;
 	padding-top: 1%;
 	padding-right: 2%;
-	padding-left: 2%;
+	padding-left: 4%;
 }
 
 .container-two {
@@ -166,17 +172,19 @@ li {
 
 .ingredientslist {
 	text-align: center;
+	list-style-position: inside;
+	padding: 1.5%;
 }
 
-
-
 .container-stepone {
-	padding-top: 1%;
+	padding-top: 2%;
+	padding-right: 2%;
 	display: inline-flex;
 }
 
 .container-stepone-p {
 	padding-left: 2%;
+	margin-top: 5%;
 }
 
 
@@ -188,22 +196,24 @@ li {
 }
 
 .image-six {
-	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 8%;
 }
 
 .image-seven {
 	padding-bottom: 6%;
+
 }
 
 
 .container-steptwo {
-	padding-top: 1%;
+	padding-right: 2%;
 	display: inline-flex;
 }
 
 .container-steptwo-p {
 	padding-left: 2%;
+	margin-top: 1%;
 }
 
 
@@ -216,11 +226,11 @@ li {
 
 .image-eight {
 	padding-top: 2%;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 }
 
 .image-nine {
-	padding-bottom: 6%;
+	padding-bottom: 0%;
 }
 
 
@@ -230,14 +240,21 @@ li {
 	text-align: justify;
 }
 
+.container-stepthree-p {
+	padding-right: 5%;
+}
+
 
 .image-ten {
 	max-width: 70%;
 	padding-top: 1%;
-	padding-right: 2%;
+	padding-right: 3.9%;
 	padding-left: 2%;
 }
 
+.rollout {
+	padding: 0% 3% 6% 2%;
+}
 
 .four-container {
 	display: grid;
@@ -247,18 +264,19 @@ li {
 	padding-left: 15%;
 	padding-bottom: 4%;
 	padding-top: 6%;
-	padding-right: 20%;
-
+	padding-right: 50%;
 }
 
 
 .container-stepfour {
-	padding-top: 1%;
+	padding-top: 2%;
+	padding-right: 2%;
 	display: inline-flex;
 }
 
 .container-stepfour-p {
 	padding-left: 2%;
+	margin-top: 10%;
 }
 
 
@@ -280,46 +298,59 @@ li {
 
 
 .container-stepfive {
+	padding-top: 2%;
+	padding-right: 2%;
 	display: inline-flex;
-	padding: 3% 0% 2% 2%;
-	text-align: justify;
+}
+
+.container-stepfive-p {
+	padding-left: 2%;
+	margin-top: 10%;
 }
 
 
 .image-seventeen {
 	max-width: 70%;
-	padding-top: 1%;
+	padding-left: 5%;
 	padding-right: 2%;
-	padding-left: 2%;
 }
 
 
 .container-stepsix {
+	padding-top: 2%;
+	padding-right: 2%;
 	display: inline-flex;
-	padding: 3% 0% 2% 2%;
-	text-align: justify;
+}
+
+.container-stepsix-p {
+	padding-left: 2%;
+	margin-top: 10%;
+
 }
 
 
 .image-eighteen {
 	max-width: 70%;
-	padding-top: 1%;
+	padding-left: 5%;
 	padding-right: 2%;
-	padding-left: 2%;
 }
 
 .container-stepseven {
+	padding-top: 2%;
+	padding-right: 2%;
 	display: inline-flex;
-	padding: 3% 0% 2% 2%;
-	text-align: justify;
+}
+
+.container-stepseven-p {
+	padding-left: 2%;
+	margin-top: 10%;
 }
 
 
 .image-nineteen {
 	max-width: 70%;
-	padding-top: 1%;
+	padding-left: 5%;
 	padding-right: 2%;
-	padding-left: 2%;
 }
 
 
@@ -334,10 +365,14 @@ li {
 .container-stepeight {
 	overflow: hidden;
 	padding-top: 1%;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 }
 
 .container-stepeight-p {
-	padding: 1% 5% 0% 2%;
+	padding: 1% 5% 5% 2%;
 
+}
+
+.image-twenty {
+	padding-right: 10%;
 }
