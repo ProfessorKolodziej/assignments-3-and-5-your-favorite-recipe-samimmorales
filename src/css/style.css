@@ -31,8 +31,6 @@ h1 {
 h2 {
 	background-color: #CEFEEF;
 	padding: 10px;
-	margin-top: 30px;
-	margin-bottom: 20px;
 	color: #1E1E1E;
 	text-align: center;
 	font-family: "Annapurna SIL";
@@ -44,8 +42,9 @@ h2 {
 }
 
 h4 {
-	background-color: rgb(229, 237, 253);
+	background-color: #83CFD1;
 	padding: 10px;
+	font-size: 25px;
 
 }
 
@@ -54,7 +53,8 @@ section {
 	margin-left: 20px;
 }
 
-p {
+p,
+li {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #000000;
@@ -65,17 +65,6 @@ p {
 	line-height: normal;
 }
 
-
-.float-container {
-	display: flex;
-	background-color: rgb(100, 57, 115);
-}
-
-.four-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 5%;
-}
 
 
 .authorname {
@@ -91,9 +80,10 @@ p {
 
 }
 
+
 .container-one {
 	display: inline-flex;
-	padding-top: 3%;
+	padding: 3% 0% 2% 2%;
 	text-align: justify;
 }
 
@@ -103,4 +93,251 @@ p {
 	padding-top: 1%;
 	padding-right: 2%;
 	padding-left: 2%;
+}
+
+.container-two {
+	padding-top: 1%;
+	display: inline-flex;
+}
+
+.container-two-p {
+	padding-left: 2%;
+}
+
+
+.image-twothree {
+	max-width: 70%;
+	padding-left: 5%;
+	padding-right: 2%;
+
+}
+
+.image-two {
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.image-three {
+	padding-bottom: 6%;
+}
+
+
+
+.container-three-p {
+	padding: 2% 4% 4% 4%;
+}
+
+.image-four {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-bottom: 3%;
+}
+
+.container-four {
+	overflow: hidden;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.container-four-p {
+	padding: 1% 5% 0% 2%;
+
+}
+
+.image-five {
+	float: right;
+	max-width: 50%;
+	padding: 0% 5% 1% 5%;
+
+}
+
+.cookingtime {
+	background-color: white;
+	padding: 2%;
+	text-align: center;
+}
+
+.pastatimes {
+	background: #157878;
+	padding: 5%;
+}
+
+.ingredientslist {
+	text-align: center;
+}
+
+
+
+.container-stepone {
+	padding-top: 1%;
+	display: inline-flex;
+}
+
+.container-stepone-p {
+	padding-left: 2%;
+}
+
+
+.image-sixseven {
+	max-width: 70%;
+	padding-left: 5%;
+	padding-right: 2%;
+
+}
+
+.image-six {
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.image-seven {
+	padding-bottom: 6%;
+}
+
+
+.container-steptwo {
+	padding-top: 1%;
+	display: inline-flex;
+}
+
+.container-steptwo-p {
+	padding-left: 2%;
+}
+
+
+.image-eightnine {
+	max-width: 70%;
+	padding-left: 5%;
+	padding-right: 2%;
+
+}
+
+.image-eight {
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.image-nine {
+	padding-bottom: 6%;
+}
+
+
+.container-stepthree {
+	display: inline-flex;
+	padding: 3% 0% 2% 2%;
+	text-align: justify;
+}
+
+
+.image-ten {
+	max-width: 70%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+
+.four-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5%;
+	background: #1B7A79;
+	padding-left: 15%;
+	padding-bottom: 4%;
+	padding-top: 6%;
+	padding-right: 20%;
+
+}
+
+
+.container-stepfour {
+	padding-top: 1%;
+	display: inline-flex;
+}
+
+.container-stepfour-p {
+	padding-left: 2%;
+}
+
+
+.image-fifsix {
+	max-width: 70%;
+	padding-left: 5%;
+	padding-right: 2%;
+
+}
+
+.image-fifteen {
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.image-sixteen {
+	padding-bottom: 6%;
+}
+
+
+.container-stepfive {
+	display: inline-flex;
+	padding: 3% 0% 2% 2%;
+	text-align: justify;
+}
+
+
+.image-seventeen {
+	max-width: 70%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+
+.container-stepsix {
+	display: inline-flex;
+	padding: 3% 0% 2% 2%;
+	text-align: justify;
+}
+
+
+.image-eighteen {
+	max-width: 70%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.container-stepseven {
+	display: inline-flex;
+	padding: 3% 0% 2% 2%;
+	text-align: justify;
+}
+
+
+.image-nineteen {
+	max-width: 70%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+
+.image-twenty {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-bottom: 3%;
+}
+
+.container-stepeight {
+	overflow: hidden;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.container-stepeight-p {
+	padding: 1% 5% 0% 2%;
+
 }
