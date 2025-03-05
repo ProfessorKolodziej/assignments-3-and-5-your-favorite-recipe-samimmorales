@@ -8,14 +8,14 @@
 
 .header {
 	background-color: #E5FFF7;
-	padding: 30px;
+	padding: 50px;
 }
 
 
 
 
 h1 {
-	padding-top: 20px;
+	padding-top: 4%;
 	padding-bottom: 20px;
 	color: #000000;
 	text-align: center;
@@ -69,6 +69,7 @@ li {
 
 .authorname {
 	text-align: center;
+	padding-bottom: 5%;
 }
 
 .jumpbutton {
@@ -76,7 +77,6 @@ li {
 	padding: 2% 2%;
 	text-decoration: none;
 	display: inline-block;
-
 }
 
 .jump {
@@ -88,8 +88,13 @@ li {
 
 .container-one {
 	display: inline-flex;
-	padding: 0% 0% 2% 3%;
+	padding: 4% 0% 2% 3%;
 	text-align: justify;
+
+}
+
+.container-one-p {
+	margin-top: 0%;
 }
 
 
@@ -184,7 +189,7 @@ li {
 
 .container-stepone-p {
 	padding-left: 2%;
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 
