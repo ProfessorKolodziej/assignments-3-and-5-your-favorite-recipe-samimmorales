@@ -5,6 +5,9 @@
 
 }
 
+img {
+	max-width: 100%;
+}
 
 .header {
 	background-color: #E5FFF7;
@@ -241,9 +244,13 @@ li {
 	margin-top: 2%;
 }
 
+.stepone {
+	padding-left: 6%;
+}
+
 
 .image-sixseven {
-	max-width: 70%;
+	min-width: 25%;
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -272,7 +279,7 @@ li {
 
 
 .image-eightnine {
-	max-width: 70%;
+	min-width: 25%;
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -300,7 +307,7 @@ li {
 
 
 .image-ten {
-	max-width: 70%;
+	min-width: 25%;
 	padding-top: 1%;
 	padding-right: 3.9%;
 	padding-left: 2%;
