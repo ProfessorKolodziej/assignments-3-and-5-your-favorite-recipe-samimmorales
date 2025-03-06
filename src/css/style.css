@@ -7,6 +7,7 @@
 
 img {
 	max-width: 100%;
+	border: #1B7A79 5px double;
 }
 
 .header {
@@ -116,9 +117,9 @@ li {
 
 .image-one {
 	max-width: 70%;
-	padding-top: 1%;
-	padding-right: 2%;
-	padding-left: 4%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 5%;
 }
 
 .container-two {
@@ -144,13 +145,13 @@ li {
 }
 
 .image-three {
-	padding-bottom: 6%;
+	padding-bottom: 5%;
 }
 
 
 
 .container-three-p {
-	padding: 2% 4% 4% 4%;
+	padding: 3% 4% 3% 4%;
 }
 
 .image-four {
@@ -224,7 +225,7 @@ li {
 .pastatimes {
 	background: #157878;
 	padding: 5%;
-	margin-right: 1.5%;
+	margin-right: 1.3%;
 }
 
 .ingredientslist {
@@ -234,14 +235,14 @@ li {
 }
 
 .container-stepone {
-	padding-top: 2%;
+	padding-top: 3%;
 	padding-right: 2%;
 	display: inline-flex;
 }
 
 .container-stepone-p {
 	padding-left: 2%;
-	margin-top: 2%;
+	margin-top: 3%;
 }
 
 .stepone {
@@ -268,6 +269,7 @@ li {
 
 
 .container-steptwo {
+	padding-top: 2%;
 	padding-right: 2%;
 	display: inline-flex;
 }
@@ -280,6 +282,7 @@ li {
 
 .image-eightnine {
 	min-width: 25%;
+
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -297,7 +300,7 @@ li {
 
 .container-stepthree {
 	display: inline-flex;
-	padding: 3% 0% 2% 2%;
+	padding: 5% 0% 0% 2%;
 	text-align: justify;
 }
 
@@ -307,14 +310,14 @@ li {
 
 
 .image-ten {
-	min-width: 25%;
+	min-width: 1%;
 	padding-top: 1%;
-	padding-right: 3.9%;
+	padding-right: 4%;
 	padding-left: 2%;
 }
 
 .rollout {
-	padding: 0% 3% 6% 2%;
+	padding: 0% 3% 4% 2%;
 }
 
 .four-container {
@@ -325,14 +328,14 @@ li {
 	padding-left: 2%;
 	padding-bottom: 5%;
 	padding-top: 2%;
-	padding-right: 10%;
+	padding-right: 7%;
 }
 
 
 
 
 .container-stepfour {
-	padding-top: 2%;
+	padding-top: 4%;
 	padding-right: 2%;
 	display: inline-flex;
 }
@@ -361,7 +364,6 @@ li {
 
 
 .container-stepfive {
-	padding-top: 2%;
 	padding-right: 2%;
 	display: inline-flex;
 }
@@ -374,13 +376,12 @@ li {
 
 .image-seventeen {
 	max-width: 70%;
-	padding-left: 5%;
-	padding-right: 2%;
+	padding-right: 3%;
+	padding-left: 2%;
 }
 
 
 .container-stepsix {
-	padding-top: 2%;
 	padding-right: 2%;
 	display: inline-flex;
 }
@@ -394,36 +395,29 @@ li {
 
 .image-eighteen {
 	max-width: 70%;
+	padding-top: 6%;
 	padding-left: 5%;
 	padding-right: 2%;
 }
 
 .container-stepseven {
-	padding-top: 2%;
 	padding-right: 2%;
 	display: inline-flex;
 }
 
 .container-stepseven-p {
 	padding-left: 2%;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 
 .image-nineteen {
-	max-width: 70%;
-	padding-left: 5%;
+	padding-left: 20%;
 	padding-right: 2%;
+	padding-bottom: 4%;
 }
 
 
-.image-twenty {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-	padding-bottom: 3%;
-}
 
 .container-stepeight {
 	overflow: hidden;
@@ -437,5 +431,11 @@ li {
 }
 
 .image-twenty {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-bottom: 2%;
 	padding-right: 10%;
+	padding-left: 3%;
 }
