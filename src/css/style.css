@@ -2,17 +2,39 @@
 
 * {
 	margin: auto 0;
+	box-sizing: border-box;
 
 }
 
 img {
 	max-width: 100%;
-	border: #1B7A79 5px double;
+	border: #1B7A79 7px double;
 }
 
 .header {
 	background-color: #E5FFF7;
-	padding: 50px;
+}
+
+.header-align {
+	display: inline-flex;
+	padding: 4% 0% 2% 3%;
+	text-align: justify;
+	margin-top: -3%;
+
+}
+
+.simplylogo {
+	width: 100%;
+	margin-left: 35%;
+	border-style: none;
+	margin-top: 0%;
+}
+
+.bar-icon {
+	width: 65%;
+	margin-top: 10%;
+	margin-left: 300%;
+	border-style: none;
 }
 
 
@@ -251,7 +273,7 @@ li {
 
 
 .image-sixseven {
-	min-width: 25%;
+	width: 153%;
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -281,8 +303,7 @@ li {
 
 
 .image-eightnine {
-	min-width: 25%;
-
+	width: 95%;
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -325,17 +346,18 @@ li {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 5%;
 	background: #1B7A79;
-	padding-left: 2%;
-	padding-bottom: 5%;
-	padding-top: 2%;
-	padding-right: 7%;
+	padding: 3% 3.5% 5% 3.5%;
+	margin-right: 8%;
+	margin-left: 12%;
+	width: 70%;
+	border: #83CFD1 dotted 7px;
+
 }
 
 
 
-
 .container-stepfour {
-	padding-top: 4%;
+	padding-top: 4.5%;
 	padding-right: 2%;
 	display: inline-flex;
 }
@@ -347,7 +369,7 @@ li {
 
 
 .image-fifsix {
-	max-width: 70%;
+	width: 90%;
 	padding-left: 5%;
 	padding-right: 2%;
 
@@ -370,14 +392,15 @@ li {
 
 .container-stepfive-p {
 	padding-left: 2%;
-	margin-top: 10%;
+	margin-top: 6%;
 }
 
 
 .image-seventeen {
-	max-width: 70%;
-	padding-right: 3%;
-	padding-left: 2%;
+	width: 185%;
+	padding-top: 5%;
+	padding-right: 2%;
+	padding-left: 27%;
 }
 
 
@@ -388,7 +411,7 @@ li {
 
 .container-stepsix-p {
 	padding-left: 2%;
-	margin-top: 10%;
+	margin-top: 11%;
 
 }
 
@@ -412,9 +435,10 @@ li {
 
 
 .image-nineteen {
-	padding-left: 20%;
+	padding-left: 24%;
 	padding-right: 2%;
 	padding-bottom: 4%;
+	width: 73%;
 }
 
 
@@ -426,7 +450,7 @@ li {
 }
 
 .container-stepeight-p {
-	padding: 1% 5% 5% 2%;
+	padding: 4% 5% 5% 2%;
 
 }
 
@@ -434,8 +458,8 @@ li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	width: 58%;
 	padding-bottom: 1%;
 	padding-right: 10%;
-	padding-left: 3%;
+	padding-left: 4%;
 }
