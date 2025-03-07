@@ -122,6 +122,8 @@ li {
 }
 
 
+
+
 .container-one {
 	display: inline-flex;
 	padding: 4% 0% 2% 3%;
@@ -574,6 +576,10 @@ li {
 		padding-bottom: 8%;
 	}
 
+	.container-six-p {
+		margin-right: 14.5%;
+	}
+
 	h2 {
 		margin-right: -0%;
 	}
@@ -594,6 +600,7 @@ li {
 	.ingredients-padding {
 		padding-top: 15%;
 	}
+
 
 
 
