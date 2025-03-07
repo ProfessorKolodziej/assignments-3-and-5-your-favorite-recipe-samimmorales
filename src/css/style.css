@@ -63,6 +63,7 @@ h2 {
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 700;
+	line-height: 1.2;
 
 
 }
@@ -75,9 +76,6 @@ h4 {
 
 }
 
-body {
-	margin-right: 0%;
-}
 
 section {
 	margin-right: 20px;
@@ -462,4 +460,142 @@ li {
 	padding-bottom: 1%;
 	padding-right: 10%;
 	padding-left: 4%;
+}
+
+
+/* this is for iphone*/
+
+@media screen and (max-width: 500px) {
+	.simplylogo {
+		width: 70%;
+		margin-left: 5%;
+	}
+
+	.bar-icon {
+		width: 55%;
+		margin-left: 43%;
+		padding-bottom: 3%;
+	}
+
+	body {
+		margin-right: -4%;
+	}
+
+
+
+	h1 {
+		padding-top: 10%;
+		font-size: 30px;
+	}
+
+	body {
+		padding-right: 3%;
+	}
+
+	.authorname {
+		padding-bottom: 5%;
+	}
+
+	.container-one {
+		display: block;
+		padding: 5%;
+
+	}
+
+	.container-one-p {
+		padding: 2% 7% 2% 4%;
+	}
+
+
+
+	.image-one {
+		max-width: 80%;
+		padding-bottom: 7%;
+		padding-right: 3%;
+		margin-left: 8%;
+	}
+
+
+	.container-two {
+		display: block;
+		padding: 5%;
+	}
+
+	.image-twothree {
+		padding-top: 8%;
+		padding-bottom: 4%;
+		margin-left: 13%;
+	}
+
+
+	.container-three {
+		display: block;
+		padding: 5%;
+	}
+
+	.image-four {
+		padding-top: 8%;
+		padding-bottom: 7%;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.container-four {
+		display: block;
+		padding: 5%;
+
+	}
+
+
+
+	.image-five {
+		padding: 10% 6% 16% 2%;
+		margin-right: 3%;
+		max-width: 200%;
+	}
+
+	.container-fivesix {
+		display: block;
+		padding: 5%;
+
+	}
+
+	.container-five-p {
+		padding: 13% 1% 5% 4%;
+	}
+
+	.container-five-h2 {
+		margin-right: 4%;
+	}
+
+	.container-six {
+		margin-left: 18%;
+		padding-top: 8%;
+		padding-bottom: 8%;
+	}
+
+	h2 {
+		margin-right: -0%;
+	}
+
+
+	h4 {
+		margin-left: -2%;
+	}
+
+	.pastatimes {
+		margin-right: 5%;
+	}
+
+	.ingredientslist {
+		margin-right: 7%;
+	}
+
+	.ingredients-padding {
+		padding-top: 15%;
+	}
+
+
+
+
 }
