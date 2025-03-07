@@ -268,7 +268,7 @@ li {
 }
 
 .stepone {
-	padding-left: 6%;
+	padding-left: 8%;
 }
 
 
@@ -465,6 +465,7 @@ li {
 }
 
 
+
 /* this is for iphone*/
 
 @media screen and (max-width: 500px) {
@@ -512,9 +513,10 @@ li {
 
 	.image-one {
 		max-width: 80%;
-		padding-bottom: 7%;
+		padding-bottom: 6%;
 		padding-right: 3%;
 		margin-left: 8%;
+		margin-top: -1%;
 	}
 
 
@@ -535,17 +537,18 @@ li {
 		padding: 5%;
 	}
 
-	.image-four {
-		padding-top: 8%;
-		padding-bottom: 7%;
-		margin-left: 10%;
-		width: 80%;
-	}
 
 	.container-four {
 		display: block;
 		padding: 5%;
 
+	}
+
+	.image-four {
+		padding-top: 8%;
+		padding-bottom: 7%;
+		margin-left: 10%;
+		width: 80%;
 	}
 
 
@@ -595,14 +598,300 @@ li {
 
 	.ingredientslist {
 		margin-right: 7%;
+		padding-top: 6%;
+		padding-bottom: 5%;
 	}
 
 	.ingredients-padding {
 		padding-top: 15%;
 	}
 
+	.method-list {
+		margin-left: 5%;
+		padding-right: 6%;
+	}
+
+	.container-stepone {
+		display: block;
+		padding: 5%;
+
+	}
+
+	.container-stepone-p {
+		padding-bottom: 1%;
+	}
+
+	.stepone {
+		margin-left: 6%;
+		padding-right: 4%;
+	}
+
+	.image-sixseven {
+		padding-top: 8%;
+		margin-left: -1%;
+		width: 90%;
+	}
 
 
+	.container-steptwo {
+		display: block;
+		padding: 0% 5% 5% 5%;
+
+	}
 
 
+	.image-eightnine {
+		padding-top: 8%;
+		padding-bottom: 7%;
+		margin-left: 3%;
+		width: 80%;
+	}
+
+	.container-stepthree {
+		display: block;
+		padding: 5%;
+		margin-top: -10%;
+
+	}
+
+	.container-stepthree-p {
+		padding-bottom: 2%;
+	}
+
+
+	.image-ten {
+		padding-top: 8%;
+		padding-bottom: 1%;
+		margin-left: 6%;
+		width: 80%;
+	}
+
+	.rollout {
+		padding-bottom: 12%;
+	}
+
+	.four-container {
+		width: 100%;
+		margin-left: -5%;
+
+	}
+
+
+	.container-stepfour {
+		display: block;
+		padding: 5%;
+
+	}
+
+
+	.image-fifsix {
+		padding-top: 8%;
+		padding-bottom: 7%;
+		margin-left: 4%;
+		width: 80%;
+	}
+
+
+	.container-stepfive {
+		display: block;
+		padding: 5%;
+		margin-top: -20%;
+
+	}
+
+
+	.image-seventeen {
+		padding-top: 15%;
+		margin-left: -33%;
+		width: 130%;
+	}
+
+
+	.container-stepsix {
+		display: block;
+		padding: 5%;
+		margin-top: -9%;
+
+	}
+
+
+	.image-eighteen {
+		padding-top: 13%;
+		padding-bottom: 5%;
+		margin-left: -6%;
+		max-width: 100%;
+	}
+
+	.container-stepseven {
+		display: block;
+		padding: 5%;
+		margin-top: -9%;
+
+	}
+
+
+	.image-nineteen {
+		margin-left: -28%;
+		padding-bottom: 15%;
+		width: 120%;
+	}
+
+	.container-stepeight {
+		display: block;
+		padding: 5%;
+		margin-top: -9%;
+
+	}
+
+	.container-stepeight-p {
+		padding-bottom: 12%;
+
+	}
+
+
+	.image-twenty {
+		margin-left: -7%;
+		padding-bottom: 5%;
+		width: 110%;
+	}
 }
+
+/* format works on its on but when integrated it messes with other browser screens so i commented it out*/
+/* this is for ipad*/
+/*
+@media screen and (max-width: 774px) {
+	.method-list {
+		padding-left: 10%;
+		padding-right: 2%;
+	}
+
+	.simplylogo {
+		width: 70%;
+		margin-left: 5%;
+	}
+
+	.bar-icon {
+		width: 55%;
+		margin-left: 90%;
+		padding-bottom: 3%;
+	}
+
+	h1 {
+		padding: 8% 4% 0% 4%;
+	}
+
+	.container-one {
+		padding-top: 6%;
+	}
+
+	.image-one {
+		width: 500%;
+		margin-top: 3%;
+	}
+
+	.container-two {
+		padding: 5%;
+	}
+
+	.image-twothree {
+		width: 300%;
+	}
+
+	.image-four {
+		width: 60%;
+		padding-bottom: 5%;
+		margin-left: 22%;
+
+	}
+
+	.image-five {
+		max-width: 80%;
+		margin-top: 4%;
+		margin-right: -8%;
+	}
+
+	.pastatimes {
+
+		margin-right: 2.5%;
+	}
+
+	.ingredients-padding {
+		padding-top: 10%;
+	}
+
+
+	.ingredients-padding-two {
+		padding-top: 5%;
+		padding-bottom: 5%;
+
+	}
+
+	.ingredientslist {
+		margin-left: -5%;
+	}
+
+	.image-sixseven {
+		width: 600%;
+		margin-top: 1%;
+	}
+
+	.image-six {
+		padding-bottom: 25%;
+	}
+
+	.image-eightnine {
+		width: 600%;
+		margin-top: 1%;
+	}
+
+	.image-eight {
+		padding-bottom: 25%;
+	}
+
+	.image-ten {
+		width: 200%;
+	}
+
+	.four-container {
+		width: 90%;
+		margin-left: 0%;
+	}
+
+	.rollout {
+		padding-bottom: 6%;
+	}
+
+	.image-fifsix {
+		width: 555%;
+		margin-top: 8%;
+	}
+
+	.container-stepfour {
+		margin-top: -4%;
+	}
+
+	.image-seventeen {
+		width: 700%;
+		margin-top: 29%;
+		margin-left: -20%;
+	}
+
+	.image-eighteen {
+		width: 360%;
+		margin-top: 10%;
+	}
+
+	.image-nineteen {
+		width: 100%;
+		margin-top: -5%;
+		margin-left: -15%;
+	}
+
+	.image-twenty {
+		width: 90%;
+		margin-left: 3%;
+	}
+
+	}
+
+	*/
