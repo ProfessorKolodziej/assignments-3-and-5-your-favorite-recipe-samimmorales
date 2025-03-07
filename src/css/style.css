@@ -468,7 +468,7 @@ li {
 
 /* this is for iphone*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
 	.simplylogo {
 		width: 70%;
 		margin-left: 5%;
@@ -756,9 +756,14 @@ li {
 	}
 }
 
+
+
+
 /* format works on its on but when integrated it messes with other browser screens so i commented it out*/
 /* this is for ipad*/
+
 /*
+
 @media screen and (max-width: 774px) {
 	.method-list {
 		padding-left: 10%;
@@ -892,6 +897,6 @@ li {
 		margin-left: 3%;
 	}
 
-	}
+}
 
-	*/
+/*
