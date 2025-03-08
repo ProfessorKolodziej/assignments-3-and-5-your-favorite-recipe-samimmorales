@@ -256,6 +256,10 @@ li {
 	padding: 1.5%;
 }
 
+.method-list {
+	margin-left: 1%;
+}
+
 .container-stepone {
 	padding-top: 3%;
 	padding-right: 2%;
@@ -465,8 +469,140 @@ li {
 }
 
 
+@media screen and (max-width: 774px) {
+	.method-list {
+		padding-left: 10%;
+		padding-right: 2%;
+	}
 
-/* this is for iphone*/
+	.simplylogo {
+		width: 70%;
+		margin-left: 5%;
+	}
+
+	.bar-icon {
+		width: 55%;
+		margin-left: 90%;
+		padding-bottom: 3%;
+	}
+
+	h1 {
+		padding: 8% 4% 0% 4%;
+	}
+
+	.container-one {
+		padding-top: 6%;
+	}
+
+	.image-one {
+		width: 500%;
+		margin-top: 3%;
+	}
+
+	.container-two {
+		padding: 5%;
+	}
+
+	.image-twothree {
+		width: 300%;
+	}
+
+	.image-four {
+		width: 60%;
+		padding-bottom: 5%;
+		margin-left: 22%;
+
+	}
+
+	.image-five {
+		max-width: 80%;
+		margin-top: 4%;
+		margin-right: -8%;
+	}
+
+	.pastatimes {
+
+		margin-right: 2.5%;
+	}
+
+	.ingredients-padding {
+		padding-top: 10%;
+	}
+
+
+	.ingredients-padding-two {
+		padding-top: 5%;
+		padding-bottom: 5%;
+
+	}
+
+	.ingredientslist {
+		margin-left: -5%;
+	}
+
+	.image-sixseven {
+		width: 600%;
+		margin-top: 1%;
+	}
+
+	.image-six {
+		padding-bottom: 25%;
+	}
+
+	.image-eightnine {
+		width: 600%;
+		margin-top: 1%;
+	}
+
+	.image-eight {
+		padding-bottom: 25%;
+	}
+
+	.image-ten {
+		width: 200%;
+	}
+
+	.four-container {
+		width: 90%;
+		margin-left: 0%;
+	}
+
+	.rollout {
+		padding-bottom: 6%;
+	}
+
+	.image-fifsix {
+		width: 555%;
+		margin-top: 8%;
+	}
+
+	.container-stepfour {
+		margin-top: -4%;
+	}
+
+	.image-seventeen {
+		width: 700%;
+		margin-top: 29%;
+		margin-left: -20%;
+	}
+
+	.image-eighteen {
+		width: 360%;
+		margin-top: 10%;
+	}
+
+	.image-nineteen {
+		width: 100%;
+		margin-top: -5%;
+		margin-left: -15%;
+	}
+
+	.image-twenty {
+		width: 90%;
+		margin-left: 3%;
+	}
+
+}
 
 @media screen and (max-width: 320px) {
 	.simplylogo {
@@ -567,6 +703,7 @@ li {
 
 	.container-five-p {
 		padding: 13% 1% 5% 4%;
+
 	}
 
 	.container-five-h2 {
@@ -755,148 +892,3 @@ li {
 		width: 110%;
 	}
 }
-
-
-
-
-/* format works on its on but when integrated it messes with other browser screens so i commented it out*/
-/* this is for ipad*/
-
-/*
-
-@media screen and (max-width: 774px) {
-	.method-list {
-		padding-left: 10%;
-		padding-right: 2%;
-	}
-
-	.simplylogo {
-		width: 70%;
-		margin-left: 5%;
-	}
-
-	.bar-icon {
-		width: 55%;
-		margin-left: 90%;
-		padding-bottom: 3%;
-	}
-
-	h1 {
-		padding: 8% 4% 0% 4%;
-	}
-
-	.container-one {
-		padding-top: 6%;
-	}
-
-	.image-one {
-		width: 500%;
-		margin-top: 3%;
-	}
-
-	.container-two {
-		padding: 5%;
-	}
-
-	.image-twothree {
-		width: 300%;
-	}
-
-	.image-four {
-		width: 60%;
-		padding-bottom: 5%;
-		margin-left: 22%;
-
-	}
-
-	.image-five {
-		max-width: 80%;
-		margin-top: 4%;
-		margin-right: -8%;
-	}
-
-	.pastatimes {
-
-		margin-right: 2.5%;
-	}
-
-	.ingredients-padding {
-		padding-top: 10%;
-	}
-
-
-	.ingredients-padding-two {
-		padding-top: 5%;
-		padding-bottom: 5%;
-
-	}
-
-	.ingredientslist {
-		margin-left: -5%;
-	}
-
-	.image-sixseven {
-		width: 600%;
-		margin-top: 1%;
-	}
-
-	.image-six {
-		padding-bottom: 25%;
-	}
-
-	.image-eightnine {
-		width: 600%;
-		margin-top: 1%;
-	}
-
-	.image-eight {
-		padding-bottom: 25%;
-	}
-
-	.image-ten {
-		width: 200%;
-	}
-
-	.four-container {
-		width: 90%;
-		margin-left: 0%;
-	}
-
-	.rollout {
-		padding-bottom: 6%;
-	}
-
-	.image-fifsix {
-		width: 555%;
-		margin-top: 8%;
-	}
-
-	.container-stepfour {
-		margin-top: -4%;
-	}
-
-	.image-seventeen {
-		width: 700%;
-		margin-top: 29%;
-		margin-left: -20%;
-	}
-
-	.image-eighteen {
-		width: 360%;
-		margin-top: 10%;
-	}
-
-	.image-nineteen {
-		width: 100%;
-		margin-top: -5%;
-		margin-left: -15%;
-	}
-
-	.image-twenty {
-		width: 90%;
-		margin-left: 3%;
-	}
-
-}
-
-/*
